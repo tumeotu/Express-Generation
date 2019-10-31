@@ -19,16 +19,20 @@
   <component name="ProjectId" id="1Ss8Nw1QT7kSoik5D6hmN9HHOWe" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BanHang/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BanHang/public/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\js" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\css" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\images" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\fonts" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\views\user" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,7 +57,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572340906186</updated>
-      <workItem from="1572340907950" duration="7306000" />
+      <workItem from="1572340907950" duration="9420000" />
+      <workItem from="1572352590990" duration="4513000" />
+      <workItem from="1572504386417" duration="9070000" />
     </task>
     <servers />
   </component>
