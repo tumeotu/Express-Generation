@@ -1,36 +1,30 @@
 <section id="cart_items" >
     <div class="container" style="background: #f2f2f2;">
-        <div class="breadcrumbs">
-            <ol class="breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li class="active">Check out</li>
-            </ol>
-        </div><!--/breadcrums-->
+
         <!--/checkout-options-->
         <div class="review-payment">
-            <h2>Review & Payment</h2>
+            <h2>Thanh toán</h2>
         </div>
-
         <div class="table-responsive cart_info">
             <table class="table table-condensed">
                 <thead>
                 <tr class="cart_menu">
-                    <td class="image">Item</td>
+                    <td class="image">Sản phẩm</td>
                     <td class="description"></td>
-                    <td class="price">Price</td>
-                    <td class="quantity">Quantity</td>
-                    <td class="total">Total</td>
+                    <td class="price">Giá</td>
+                    <td class="quantity">Số lượng</td>
+                    <td class="total">Thành tiền</td>
                     <td></td>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td class="cart_product">
-                        <a href=""><img src="images/cart/one.png" alt=""></a>
+                        <a href=""><img src="user/images/cart/one.png" alt=""></a>
                     </td>
                     <td class="cart_description">
-                        <h4><a href="">Colorblock Scuba</a></h4>
-                        <p>Web ID: 1089772</p>
+                        <h4><a href="">Váy nữ xinh xắn</a></h4>
+                        <p>Mã sản phẩm: 1089772</p>
                     </td>
                     <td class="cart_price">
                         <p>$59</p>
@@ -52,11 +46,11 @@
 
                 <tr>
                     <td class="cart_product">
-                        <a href=""><img src="images/cart/two.png" alt=""></a>
+                        <a href=""><img src="user/images/cart/two.png" alt=""></a>
                     </td>
                     <td class="cart_description">
-                        <h4><a href="">Colorblock Scuba</a></h4>
-                        <p>Web ID: 1089772</p>
+                        <h4><a href="">Váy nữ xinh xắn</a></h4>
+                        <p>Mã sản phẩm: 1089772</p>
                     </td>
                     <td class="cart_price">
                         <p>$59</p>
@@ -77,11 +71,11 @@
                 </tr>
                 <tr>
                     <td class="cart_product">
-                        <a href=""><img src="images/cart/three.png" alt=""></a>
+                        <a href=""><img src="user/images/cart/three.png" alt=""></a>
                     </td>
                     <td class="cart_description">
-                        <h4><a href="">Colorblock Scuba</a></h4>
-                        <p>Web ID: 1089772</p>
+                        <h4><a href="">Váy nữ xinh xắn</a></h4>
+                        <p>Mã sản phẩm: 1089772</p>
                     </td>
                     <td class="cart_price">
                         <p>$59</p>
@@ -105,16 +99,12 @@
                     <td colspan="2">
                         <table class="table table-condensed total-result">
                             <tr>
-                                <td>Cart Sub Total</td>
+                                <td>Thành tiền</td>
                                 <td>$59</td>
                             </tr>
-                            <tr>
-                                <td>Exo Tax</td>
-                                <td>$2</td>
-                            </tr>
                             <tr class="shipping-cost">
-                                <td>Shipping Cost</td>
-                                <td>Free</td>
+                                <td>Phí giao hàng</td>
+                                <td>Miễn phí</td>
                             </tr>
                             <tr>
                                 <td>Total</td>
@@ -129,66 +119,32 @@
         <div class="row">
                 <div class="container">
                     <form action="/action_page.php">
-
                         <div class="row">
-                            <div class="col-50">
-                                <h3>Billing Address</h3>
-                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                <input type="number" id="fname" name="firstname" placeholder="John M. Doe">
+                            <div class="col-75">
+                                <h3>Địa chỉ:</h3>
+                                <label for="fname"><i class="fa fa-user"></i>Họ và tên</label>
+                                <input type="number" id="fname" name="firstname" placeholder="Nguyễn Văn A">
+                                <label for="email"><i class="fa fa-envelope"></i>Số điện thoại</label>
+                                <input type="number" id="email" name="email" placeholder="0321863455">
                                 <label for="email"><i class="fa fa-envelope"></i> Email</label>
                                 <input type="number" id="email" name="email" placeholder="john@example.com">
-                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                <input type="number" id="adr" name="address" placeholder="542 W. 15th Street">
-                                <label for="city"><i class="fa fa-institution"></i> City</label>
-                                <input type="number" id="city" name="city" placeholder="New York">
-
-                                <div class="row">
-                                    <div class="col-50">
-                                        <label for="state">State</label>
-                                        <input type="number" id="state" name="state" placeholder="NY">
-                                    </div>
-                                    <div class="col-50">
-                                        <label for="zip">Zip</label>
-                                        <input type="number" id="zip" name="zip" placeholder="10001">
-                                    </div>
-                                </div>
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Địa chỉ</label>
+                                <input type="number" id="adr" name="address" placeholder="123 CMT8">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Thành phố</label>
+                                <input type="number" id="city" name="city" placeholder="Hồ Chí Minh">
+                                <label for="email"><i class="fa fa-envelope"></i>Mã giảm giá</label>
+                                <input type="number" id="email" name="email" placeholder="">
                             </div>
-
-                            <div class="col-50">
-                                <h3>Payment</h3>
-                                <label for="fname">Accepted Cards</label>
-                                <div class="icon-container">
-                                    <i class="fa fa-cc-visa" style="color:navy;"></i>
-                                    <i class="fa fa-cc-amex" style="color:blue;"></i>
-                                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                                    <i class="fa fa-cc-discover" style="color:orange;"></i>
-                                </div>
-                                <label for="cname">Name on Card</label>
-                                <input type="number" id="cname" name="cardname" placeholder="John More Doe">
-                                <label for="ccnum">Credit card number</label>
-                                <input type="number" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                                <label for="expmonth">Exp Month</label>
-                                <input type="number" id="expmonth" name="expmonth" placeholder="September">
-                                <div class="row">
-                                    <div class="col-50">
-                                        <label for="expyear">Exp Year</label>
-                                        <input type="number" id="expyear" name="expyear" placeholder="2018">
-                                    </div>
-                                    <div class="col-50">
-                                        <label for="cvv">CVV</label>
-                                        <input type="number" id="cvv" name="cvv" placeholder="352">
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                         <div class="col-md-4 center-block">
                         </div>
-                        <div class="col-md-4 text-center">
-                            <input type="submit" value="Continue to checkout" class="btn">
-                        </div>
                     </form>
                 </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <a href="#"><button class="btn btn-primary text-center">Thanh toán</button></a>
+            </div>
+            <div class="col-sm-4"></div><br><br><br><br>
         </div>
     </div>
 </section> <!--/#cart_items-->

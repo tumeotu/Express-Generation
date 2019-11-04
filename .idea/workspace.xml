@@ -19,19 +19,21 @@
   <component name="ProjectId" id="1Ss8Nw1QT7kSoik5D6hmN9HHOWe" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/BanHang/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BanHang/public/user/vendor/bootstrap" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\js" />
-      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\css" />
-      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\images" />
-      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\fonts" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\user\vendor\bootstrap" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\user" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\admin" />
       <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\views\element\user" />
+      <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\public\admin\js" />
       <recent name="H:\NAM 3\LTUDW\DO AN GIUA KY\1712863\BanHang\views\user" />
     </key>
   </component>
@@ -59,7 +61,13 @@
       <updated>1572340906186</updated>
       <workItem from="1572340907950" duration="9420000" />
       <workItem from="1572352590990" duration="4513000" />
-      <workItem from="1572504386417" duration="9070000" />
+      <workItem from="1572504386417" duration="9782000" />
+      <workItem from="1572617225680" duration="5058000" />
+      <workItem from="1572623854243" duration="764000" />
+      <workItem from="1572676816794" duration="537000" />
+      <workItem from="1572677524788" duration="7848000" />
+      <workItem from="1572760125235" duration="15949000" />
+      <workItem from="1572872611647" duration="9336000" />
     </task>
     <servers />
   </component>
