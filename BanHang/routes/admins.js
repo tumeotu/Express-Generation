@@ -24,4 +24,7 @@ router.get('/edit-order-1.html', function(req, res, next) {
 router.get('/sales.html', function(req, res, next) {
     res.render('admin/sales', { title: 'Chi tiết đơn hàng',layout: 'admin' });
 });
+router.get('/top.html', function(req, res, next) {
+    res.render('admin/top', { title: 'Chi tiết đơn hàng',layout: 'admin' });
+});
 module.exports = router;
